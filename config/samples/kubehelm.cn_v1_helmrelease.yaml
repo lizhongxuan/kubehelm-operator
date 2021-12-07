@@ -1,0 +1,6 @@
+apiVersion: kubehelm.cn.kubehelm.cn/v1
+kind: HelmRelease
+metadata:
+  name: helmrelease-sample
+spec:
+  # TODO(user): Add fields here

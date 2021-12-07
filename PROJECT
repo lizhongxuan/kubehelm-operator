@@ -1,0 +1,16 @@
+domain: kubehelm.cn
+layout:
+- go.kubebuilder.io/v3
+projectName: kubehelm-operator
+repo: kubehelm-operator
+resources:
+- api:
+    crdVersion: v1
+    namespaced: true
+  controller: true
+  domain: kubehelm.cn
+  group: kubehelm.cn
+  kind: HelmRelease
+  path: kubehelm-operator/api/v1
+  version: v1
+version: "3"
